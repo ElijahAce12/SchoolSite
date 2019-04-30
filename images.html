@@ -1,30 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="text.html">Text Page</a></li>
-      <li><a href="box.html">Box Page</a></li>
-      <li><a href="images.html">Images Page</a></li>
-    </ul>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="indexstylesheet.css">
-    <style>
-img {
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Images Page</title>
+  <style>
+    img {
       border: 5px solid black;
       border-radius: 20px;
       margin: 20px;
     }
-.bob {border-radius: 50%;}
-      </style>
 
-  </head>
-  <body>
-    <img src="images/lines.png" alt="This is a picture of random squiggly lines" class="bob" />
-    <img src="images/lines.png" alt="This is a picture of random squiggly lines" />
-    <img src="images/lines.png" alt="This is a picture of random squiggly lines" />
-    <img src="images/lines.png" alt="This is a picture of random squiggly lines" />
+    .bob {
+      border-radius: 50%;
+    }
 
-  </body>
+    body {
+
+      background-image: url("images/128-193.jpg");
+      background-position: center;
+      color: #ffffff;
+
+      font-family: 'Srisakdi', cursive;
+
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+  </style>
+
+</head>
+
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="text.html">Text Page</a></li>
+    <li><a href="box.html">Box Page</a></li>
+    <li><a href="images.html">Images Page</a></li>
+    <li><a href="tables.html">Tables Page</a></li>
+  </ul>
+  <img src="images/lines.png" alt="This is a picture of random squiggly lines" class="bob" />
+  <img src="images/lines.png" alt="This is a picture of random squiggly lines" />
+  <img src="images/lines.png" alt="This is a picture of random squiggly lines" />
+  <img src="images/lines.png" alt="This is a picture of random squiggly lines" />
+
+</body>
+
 </html>
