@@ -78,6 +78,6 @@
 
 /* Body tag edits anything to do with the Body */
  body {
-   background-image: url("images/1021.jpg");
-background-size: contain;
+   background-image: url("images/gradient.png");
+background-size: auto;
  }
